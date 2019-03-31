@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>HTML dinamicamente generar tabla usando JavaScript</title>
+    <script type="text/javascript" src="app.js"></script>
+</head>
+<body onload="load()">
+<div id="myform">
+<b>forma con nombre y edad</b>
+<table>
+    <tr>
+        <td>Nombre:</td>
+        <td><input type="text" id="name"></td>
+    </tr>
+    <tr>
+        <td>Apellido:</td>
+        <td><input type="text" id="lastname"></td>
+    </tr>
+    <tr>
+        <td>edad:</td>
+        <td><input type="text" id="age">
+        <input type="button" id="add" value="Add" onclick="Javascript:addRow()"></td>
+    </tr>
+    <tr>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+    </tr>
+</table>
+</div>
+<div id="mydata">
+<b>datos</b>
+<table id="myTableData"  border="1" cellpadding="2">
+    <tr>
+        <td>&nbsp;</td>
+        <td><b>Nombre</b></td>
+        <td><b>Apellido</b></td>
+        <td><b>Edad</b></td>
+    </tr>
+</table>
+&nbsp;
+ 
+</div>
+</body>
+</html>
